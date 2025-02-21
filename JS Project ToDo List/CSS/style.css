@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f8f9fa; /* Light background */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading */
+.heading {
+margin: 20px 0;
+}
+
+.heading h1 {
+font-weight: bold;
+color: #343a40; /* Dark text color */
+}
+
+/* Form styling */
+.container {
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+label {
+font-weight: bold;
+}
+
+input, textarea {
+border-radius: 5px;
+border: 1px solid #ced4da;
+padding: 10px;
+}
+
+button {
+transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+background-color: #007bff;
+border-color: #0056b3;
+transform: translateY(-2px);
+}
+
+/* Table styling */
+.table {
+background: #fff;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+text-align: center;
+vertical-align: middle;
+}
+
+.table thead th {
+background-color: #007bff;
+color: white;
+font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+background-color: #e9ecef;
+}
+
+.btn-primary {
+background-color: #007bff;
+border-color: #007bff;
+}
+
+.btn-primary:hover {
+background-color: #0056b3;
+border-color: #004085;
+}
+
+/* Footer */
+.footer {
+text-align: center;
+margin: 20px 0;
+color: #6c757d;
+font-size: 14px;
+}
